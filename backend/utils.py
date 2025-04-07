@@ -4,7 +4,7 @@ import pdfplumber
 import pytesseract
 from pdf2image import convert_from_path
 
-# Optional fallback using Donut
+
 try:
     from models.donut_model import extract_using_donut
     USE_DONUT = True
