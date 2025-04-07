@@ -2,7 +2,7 @@ from transformers import DonutProcessor, VisionEncoderDecoderModel
 from PIL import Image
 import torch
 
-# Load model & processor
+
 processor = DonutProcessor.from_pretrained("naver-clova-ix/donut-base")
 model = VisionEncoderDecoderModel.from_pretrained("naver-clova-ix/donut-base")
 
