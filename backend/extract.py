@@ -29,5 +29,5 @@ def extract_fields_from_text(text: str):
     try:
         return json.loads(response.content)
     except json.JSONDecodeError:
-        print("⚠️ Failed to parse JSON. Raw output:", response.content)
+        print("Failed to parse JSON. Raw output:", response.content)
         return {"error": "Invalid JSON format", "raw_response": response.content}
