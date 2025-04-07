@@ -7,4 +7,4 @@ Sample Fields per Document Type:
 Bill of Exchange: Drawer, Drawee, Amount, Due Date, Acceptance Status.
 Goods Receipt Note (GRN): Supplier Name, GRN Number, Received Items, Quantity, Inspection Status.
 Purchase Order (PO): PO Number, Buyer Name, Supplier, Item List, Total Cost, Payment Terms.
-Please find samples on the internet to create this demo.
+
