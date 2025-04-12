@@ -2,7 +2,6 @@ from transformers import DonutProcessor, VisionEncoderDecoderModel
 from PIL import Image
 import torch
 
-
 processor = DonutProcessor.from_pretrained("naver-clova-ix/donut-base")
 model = VisionEncoderDecoderModel.from_pretrained("naver-clova-ix/donut-base")
 
@@ -16,8 +15,6 @@ def extract_using_donut(image_path):
 
     result = processor.batch_decode(outputs, skip_special_tokens=True)[0]
     return result
-
-
 
 
 
